@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : sam. 13 mai 2023 à 12:24
+-- Généré le : mar. 06 juin 2023 à 19:49
 -- Version du serveur : 5.7.36
 -- Version de PHP : 7.4.26
 
@@ -93,8 +93,8 @@ CREATE TABLE IF NOT EXISTS `patient` (
 --
 
 INSERT INTO `patient` (`id`, `nom`, `prenom`, `mail`, `tel`, `mot_de_passe`, `activite`, `num_secu`, `mutuelle`, `caisse`, `date_naissance`, `genre`, `nom_tuteur`, `prenom_tuteur`, `mail_tuteur`, `tel_tuteur`, `nom_generaliste`, `prenom_generaliste`, `mail_generaliste`, `tel_generaliste`, `date_inscription`) VALUES
-(1, 'Michel', 'Dante', 'xzibit@gmail.com', '0468721345', '$2y$10$GBNUqQTlqbMGMrMjlYsgMuWVBdy.t5307UcZzJNlhK7OAN9sbaRmy', 'Cadre et profession intellectuelle supérieure', 12772237, 'Hypercash', '13', '1998-02-21', 'Masculin', 'Momo', 'Jiji', 'momo@gmail.com', '054787512', 'Sans-Plomb', 'Gilles', 'gilles@sansplomb.com', '0475878624524', '2023-05-01'),
-(2, 'Louis', 'Malreau', 'JetpackTriceratops@gmail.com', '0845451212', '$2y$10$mo3g7URKIfaWi/j2HWrqD.DFLv6FOsNPfQwmrQphYwIx0QJ3p/NPu', 'Cadre et profession intellectuelle supérieure', 12772237, 'Hypercash', '13', '4000-05-21', 'Autre', 'de Michel', 'Le papa ', 'lepapadeMichel@superpapa.com', '054787512132', '', '', '', '', '2023-05-03');
+(1, 'Michel', 'Lardon', 'xzibit@gmail.com', '0468721345', '$2y$10$GBNUqQTlqbMGMrMjlYsgMuWVBdy.t5307UcZzJNlhK7OAN9sbaRmy', 'Cadre et profession intellectuelle supérieure', 12772237, 'Hypercash', '13', '1998-02-21', 'Masculin', 'Momo', 'Jiji', 'momo@gmail.com', '054787512', 'Sans-Plomb', 'Gilles', 'gilles@sansplomb.com', '0475878624524', '2023-05-01'),
+(6, 'Michel', 'Lardon', 'JetpackTriceratops@gmail.com', '0845451212', '$2y$10$mo3g7URKIfaWi/j2HWrqD.DFLv6FOsNPfQwmrQphYwIx0QJ3p/NPu', 'Cadre et profession intellectuelle supérieure', 12772237, 'Hypercash', '13', '4000-05-21', 'Autre', 'de Michel', 'Le papa ', 'lepapadeMichel@superpapa.com', '054787512132', '', '', '', '', '2023-05-03');
 
 -- --------------------------------------------------------
 
